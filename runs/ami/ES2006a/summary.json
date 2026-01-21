@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "speaker_0",
+    "total_s": 484.39,
+    "turns": 96,
+    "avg_turn_s": 5.05
+  },
+  {
+    "speaker": "speaker_1",
+    "total_s": 179.83,
+    "turns": 28,
+    "avg_turn_s": 6.42
+  },
+  {
+    "speaker": "speaker_2",
+    "total_s": 199.71,
+    "turns": 23,
+    "avg_turn_s": 8.68
+  },
+  {
+    "speaker": "speaker_3",
+    "total_s": 185.22,
+    "turns": 36,
+    "avg_turn_s": 5.14
+  }
+]

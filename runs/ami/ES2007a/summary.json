@@ -1,0 +1,38 @@
+[
+  {
+    "speaker": "speaker_0",
+    "total_s": 307.95,
+    "turns": 86,
+    "avg_turn_s": 3.58
+  },
+  {
+    "speaker": "speaker_1",
+    "total_s": 165.17,
+    "turns": 39,
+    "avg_turn_s": 4.24
+  },
+  {
+    "speaker": "speaker_2",
+    "total_s": 171.75,
+    "turns": 55,
+    "avg_turn_s": 3.12
+  },
+  {
+    "speaker": "speaker_3",
+    "total_s": 149.52,
+    "turns": 74,
+    "avg_turn_s": 2.02
+  },
+  {
+    "speaker": "speaker_4",
+    "total_s": 100.55,
+    "turns": 25,
+    "avg_turn_s": 4.02
+  },
+  {
+    "speaker": "speaker_5",
+    "total_s": 47.01,
+    "turns": 51,
+    "avg_turn_s": 0.92
+  }
+]
