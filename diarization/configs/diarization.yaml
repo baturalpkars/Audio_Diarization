@@ -1,0 +1,24 @@
+# Your project-level config (integration config)
+
+audio:
+  sample_rate: 16000
+  mono: true
+
+nemo:
+  # Path to your local NeMo git clone (used for official scripts/configs).
+  # Later on, you can vendor the needed config/script into your repo and remove this dependency.
+  nemo_repo_dir: "/Users/baturalpkarslioglu/Documents/Nemo"
+
+  # Where NeMo keeps inference configs
+  nemo_infer_config_dir_rel: "examples/speaker_tasks/diarization/conf/inference"
+
+  # Which NeMo inference script to run (commonly exists in NeMo repo)
+  nemo_infer_script_rel: "examples/speaker_tasks/diarization/clustering_diarizer/offline_diar_infer.py"
+
+profiles:
+  meeting:
+    nemo_config_name: "diar_infer_meeting.yaml"
+  general:
+    nemo_config_name: "diar_infer_general.yaml"
+  telephonic:
+    nemo_config_name: "diar_infer_telephonic.yaml"
