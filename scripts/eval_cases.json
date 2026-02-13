@@ -1,0 +1,37 @@
+[
+  {
+    "name": "test_1",
+    "segments": "../runs/test_01/segments.json",
+    "facereader_dir": "../data/face_reader/facereader_detailed_01.xlsx",
+    "gt": "../data/annotations/test_1.json",
+    "out": "../runs/eval_out/test_1"
+  },
+  {
+    "name": "test_2",
+    "segments": "../runs/test_02/segments.json",
+    "facereader_dir": "../data/face_reader/facereader_detailed_02.xlsx",
+    "gt": "../data/annotations/test_2.json",
+    "out": "../runs/eval_out/test_2"
+  },
+  {
+    "name": "test_3",
+    "segments": "../runs/test_03/segments.json",
+    "facereader_dir": "../data/face_reader/test_3_detailed.xlsx",
+    "gt": "../data/annotations/test_3.json",
+    "out": "../runs/eval_out/test_3"
+  },
+  {
+      "name": "test_4",
+      "segments": "../runs/test_04/segments.json",
+      "facereader_dir": "../data/face_reader/test_4_detailed.xlsx",
+      "gt": "../data/annotations/test_4.json",
+      "out": "../runs/eval_out/test_4"
+  },
+  {
+      "name": "test_5",
+      "segments": "../runs/test_05/segments.json",
+      "facereader_dir": "../data/face_reader/test_5_detailed.xlsx",
+      "gt": "../data/annotations/test_5.json",
+      "out": "../runs/eval_out/test_5"
+  }
+]

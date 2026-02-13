@@ -7,14 +7,18 @@ if __name__ == "__main__":
         sys.argv[0],
 
         # === REQUIRED INPUTS ===
-        "--segments", "../runs/trimmed_session01/segments.json",
-        "--participants-dir", "../data/face_reader/facereader_norm",
-        "--out", "../runs/fusion_out",
+        "--segments", "../runs/test_02/segments.json",
+        "--participants-dir", "../data/face_reader/facereader_02",
+        "--out", "../runs/fusion_out_02",
 
         # === TUNING PARAMETERS ===
         "--min-seg-sec", "0.6",
         "--av-offset-sec", "0.0",
         "--smooth-ms", "240",
+        "--margin-ratio", "1.08",
+        "--best-min", "0.06",
+        "--stick-ratio", "0.92",
+        "--use-global-map",
     ]
 
     align_main()

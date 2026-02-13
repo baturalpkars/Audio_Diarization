@@ -7,8 +7,8 @@ if __name__ == "__main__":
 
     sys.argv = [
         sys.argv[0],
-        "--xlsx", "../data/face_reader/facereader_detailed.xlsx",
-        "--out", "../data/face_reader/facereader_norm",
+        "--xlsx", "../data/face_reader/facereader_detailed_02.xlsx",
+        "--out", "../data/face_reader/facereader_02",
         "--quality-threshold", "0.7",
     ]
     extract_main()

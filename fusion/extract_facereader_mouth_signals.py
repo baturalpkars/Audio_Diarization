@@ -103,7 +103,7 @@ def main() -> None:
     if not args.keep_all:
         df = df[df["quality"] >= args.quality_threshold].copy()
 
-    df["mouth_score_raw"] = 0.4 * df["au25"] + 0.3 * df["au26"] + 0.15 * df["au10"] + 0.15 * df["au12"]
+    df["mouth_score_raw"] = 0.45 * df["au25"] + 0.35 * df["au26"] + 0.15 * df["au10"] + 0.05 * df["au12"]
 
     blocks = split_by_time_resets(df, "time_sec")
 

@@ -49,8 +49,8 @@ def main(
 
 if __name__ == "__main__":
     # 👇 EDIT THESE in PyCharm
-    INPUT_MEDIA = "../data/trimmed_zoom.mp3"          # video OR audio (mp4/mp3/wav/m4a)
-    OUT_DIR = "../runs/trimmed_session_01"
+    INPUT_MEDIA = "../data/test_5_6_min.mp4"          # video OR audio (mp4/mp3/wav/m4a)
+    OUT_DIR = "../runs/test_05"
     PROFILE = "meeting"                             # meeting / telephonic / general (must exist in YAML)
     NUM_SPEAKERS = None                             # set int if you know (e.g., 2), else None
     CONFIG_PATH = "../diarization/configs/diarization.yaml"
